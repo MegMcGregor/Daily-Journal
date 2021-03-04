@@ -1,12 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
 header {
     display: flex;
-    background: #73BEFA;
-    height: 150px;
+    height: 200px;
+    background-color: #1b62c5;
     object-fit: cover;
 }
 
+img {
+    margin: 1em;
+    padding: 0 1em;
+}
+
 header > h1 {
-    color: #F5FA5A;
+    display: flex;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 5em;
+    color: #F8FCDA;
+    
 }
 
 
@@ -18,7 +30,7 @@ header > h1 {
 }
 
 button {
-    background-color: #437ead;
+    background-color: #131A42;
     border: none;
     color: white;
     font-size: medium;
@@ -34,7 +46,7 @@ textarea {
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 1px solid #437EAD;
+    border: 1px solid #131A42;
     border-radius: 4px;
     margin: 10px;
   }
@@ -44,21 +56,21 @@ textarea {
     height: 50px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 1px solid #437EAD;
+    border: 1px solid #131A42;
     border-radius: 4px;
     margin: 10px;
   }
 
 select {
     margin: 10px;
-    border: 1px solid #437EAD;
+    border: 1px solid #131A42;
     border-radius: 4px;
     padding: 5px;
 }
 
 
 aside {
-    background: #FFFEC1;
+    background: #ffdabe;
     width: 25%;
     height: 1000px;
     float: right;
@@ -73,7 +85,7 @@ aside > li {
 
 
 footer {
-    background: #FA3A3A;
+    background: #F03a47;
     padding: 10px;
     height: 30px;
     clear:both;
