@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 
 
 header {
@@ -15,9 +15,10 @@ img {
 
 header > h1 {
     display: flex;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', cursive;
     font-size: 5em;
-    color: #F8FCDA;
+    color: #f6fcc7;
+    letter-spacing: 4px;
     
 }
 
@@ -70,7 +71,7 @@ select {
 
 
 aside {
-    background: #ffdabe;
+    background: #FFD0B7;
     width: 25%;
     height: 1000px;
     float: right;
