@@ -1,24 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+
 header {
     display: flex;
-    background: #73BEFA;
-    height: 150px;
+    height: 200px;
+    background-color: #131A42;
+    overflow: hidden;
     object-fit: cover;
+    width: 100%;
+    top: 0;
+    clear: auto;
+}
+
+img {
+    margin: 1em;
+    padding: 0 1em;
 }
 
 header > h1 {
-    color: #F5FA5A;
+    display: flex;
+    font-family: 'Playfair Display', cursive;
+    font-size: 5em;
+    color: white;
+    letter-spacing: 4px;
 }
-
 
 .form {
     color: gray;
     width: 75%;
-    height: 1000px;
-    float: left;
+    height: 100%;
+    float: left; 
+    margin-bottom: 1em;
+    
 }
 
 button {
-    background-color: #437ead;
+    background-color: #131A42;
     border: none;
     color: white;
     font-size: medium;
@@ -34,36 +50,37 @@ textarea {
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 1px solid #437EAD;
+    border: 1px solid #131A42;
     border-radius: 4px;
     margin: 10px;
   }
 
-  input {
+input {
     width: 50%;
     height: 50px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 1px solid #437EAD;
+    border: 1px solid #131A42;
     border-radius: 4px;
     margin: 10px;
   }
 
 select {
     margin: 10px;
-    border: 1px solid #437EAD;
+    border: 1px solid #131A42;
     border-radius: 4px;
     padding: 5px;
 }
 
 
 aside {
-    background: #FFFEC1;
+    background: #f8d1bd;
     width: 25%;
-    height: 1000px;
+    /* height: 100%; */
     float: right;
+    vertical-align: middle;
     text-align: center;
-}
+} 
 
 aside > li {
     text-align: left;
@@ -73,10 +90,16 @@ aside > li {
 
 
 footer {
-    background: #FA3A3A;
+    display: flex;
+    background: #F03a47;
     padding: 10px;
     height: 30px;
-    clear:both;
+    overflow: hidden;
     color: white;
-    text-align: center;
+    object-fit: cover;
+    clear: both;
+} 
+
+main {
+    display: inline;
 }

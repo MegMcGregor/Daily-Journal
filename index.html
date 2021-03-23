@@ -8,56 +8,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Journal</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-        <img class="logo" src="imgaes/journal logo.png" alt="logo">
+        <img class="logo" src="imgaes/journal_logo_4.png" alt="logo">
         <h1 class="header-title">Meg</h1>
     </header>
+<main>
+    <div class="form">
+        <h3>Daily Journal</h3>
+        <form>
 
-    <main>
-
-        <div class="form">
-
-            <form>
-
-                <label class="date">Date:</label><br>
-                <input type="date" id="date"><br>
+            <label class="date">Date:</label><br>
+            <input type="date" id="date"><br>
 
 
-                <label for="concepts-covered">Concepts Covered</label><br>
-                <input type="text" id=conceptsCovered>
-                <br>
+            <label for="concepts-covered">Concepts Covered</label><br>
+            <input type="text" id=conceptsCovered>
+            <br>
 
-                <label for="mood">Choose a mood:</label><br>
+            <label for="mood">Choose a mood:</label><br>
 
-                <select id="currentMood">
-                    <option value="overwhelmed">overwhelmed</option>
-                    <option value="whelmed">whelmed</option>
-                    <option value="underwhelmed">underwhelmed</option>
-                </select><br>
+            <select id="currentMood">
+                <option value="overwhelmed">overwhelmed</option>
+                <option value="whelmed">whelmed</option>
+                <option value="underwhelmed">underwhelmed</option>
+            </select><br>
 
-                <label for="journal-entry">Journal Entry</label>
-                <textarea class="journal-text" name="journal-text" rows="4" cols="50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            <label for="journal-entry">Journal Entry</label>
+            <textarea class="journal-text" name="journal-text" rows="4" cols="50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </textarea>
 
-                <button type="button">Log Journal Entry</button>
+            <button type="button">Log Journal Entry</button>
 
 
-            </form>
-        </div>
+        </form>
+        <div id="entryLog"></div>
+    </div>
 
-        <aside>
-            <p>Journal Entry List Goes Here</p>
-            <li>expample</li>
-            <li>expample</li>
-            <li>expample</li>
-            <li>expample</li>
-        </aside>
+    <aside>
+        <p>Journal Entry List Goes Here</p>
+        <li>expample</li>
+        <li>expample</li>
+        <li>expample</li>
+        <li>expample</li>
+    </aside>
+</main>
 
-        <footer>&#169; Meg McGregor</footer>
+    <footer>&#169; Meg McGregor</footer>
 
-    </main>
-
+    <script type="module" src="./scripts/main.js"></script>
 </body>
