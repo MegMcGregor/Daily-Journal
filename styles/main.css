@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 
-
 header {
     display: flex;
     height: 200px;
     background-color: #131A42;
+    overflow: hidden;
     object-fit: cover;
+    width: 100%;
+    top: 0;
+    clear: auto;
 }
 
 img {
@@ -19,15 +22,15 @@ header > h1 {
     font-size: 5em;
     color: white;
     letter-spacing: 4px;
-    
 }
-
 
 .form {
     color: gray;
     width: 75%;
-    height: 1000px;
-    float: left;
+    height: 100%;
+    float: left; 
+    margin-bottom: 1em;
+    
 }
 
 button {
@@ -52,7 +55,7 @@ textarea {
     margin: 10px;
   }
 
-  input {
+input {
     width: 50%;
     height: 50px;
     padding: 12px 20px;
@@ -73,10 +76,11 @@ select {
 aside {
     background: #f8d1bd;
     width: 25%;
-    height: 1000px;
+    /* height: 100%; */
     float: right;
+    vertical-align: middle;
     text-align: center;
-}
+} 
 
 aside > li {
     text-align: left;
@@ -86,10 +90,16 @@ aside > li {
 
 
 footer {
+    display: flex;
     background: #F03a47;
     padding: 10px;
     height: 30px;
-    clear:both;
+    overflow: hidden;
     color: white;
-    text-align: center;
+    object-fit: cover;
+    clear: both;
+} 
+
+main {
+    display: inline;
 }
